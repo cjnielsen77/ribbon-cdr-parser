@@ -6,6 +6,10 @@ This project was intentionally built as a **local‑only utility** suitable for 
 
 ---
 
+![tests](https://github.com/cjnielsen77/ribbon-cdr-parser/actions/workflows/tests.yml/badge.svg)
+
+[![tests](https://github.com/cjnielsen77/ribbon-cdr-parser/actions/workflows/tests.yml/badge.svg)](https://github.com/cjnielsen77/ribbon-cdr-parser/actions/workflows/tests.yml)
+
 ## Supported Platforms
 
 * Ribbon SBC 5400
