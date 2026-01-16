@@ -32,18 +32,11 @@ Developed and validated using **Ribbon SBC Core Release 12.01.06** documentation
 
 ## Screenshots
 
-```text
-docs/screenshots/
-  main_input.png
-  condensed_view.png
-  full_view.png
-```
-
-```md
 ![Main Input](docs/screenshots/main_input.png)
+
 ![Condensed View](docs/screenshots/condensed_view.png)
+
 ![Full Parsed View](docs/screenshots/full_view.png)
-```
 
 ---
 
@@ -107,7 +100,7 @@ Sample CDR examples included in this repository were derived from these public d
 
 ## Testing
 
-Basic smoke tests can be added under the `tests/` directory to validate that sample START, ATTEMPT, and STOP CDRs parse without error and return expected fields.
+Basic smoke tests Run: pytest under the `tests/` directory to validate that sample START, ATTEMPT, and STOP CDRs parse without error and return expected fields.
 
 ---
 
