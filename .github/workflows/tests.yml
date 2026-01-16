@@ -23,7 +23,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
           cache: pip
 
-      # On Ubuntu, tkinter may not be installed by default.
+      # Ubuntu runners may not include tkinter by default.
       - name: Install tkinter (Ubuntu)
         if: runner.os == 'Linux'
         run: |
