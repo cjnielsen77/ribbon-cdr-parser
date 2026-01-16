@@ -32,12 +32,11 @@ Developed and validated using **Ribbon SBC Core Release 12.01.06** documentation
 
 ## Screenshots
 
-![Main Input](https://raw.githubusercontent.com/cjnielsen77/ribbon-cdr-parser/main/docs/screenshots/main_input.png)
+![Main Input](https://github.com/cjnielsen77/ribbon-cdr-parser/blob/main/docs/screenshots/main_input.png?raw=true)
 
-![Condensed View](https://raw.githubusercontent.com/cjnielsen77/ribbon-cdr-parser/main/docs/screenshots/condensed_view.png)
+![Condensed View](https://github.com/cjnielsen77/ribbon-cdr-parser/blob/main/docs/screenshots/condensed_view.png?raw=true)
 
-![Full Parsed View](https://raw.githubusercontent.com/cjnielsen77/ribbon-cdr-parser/main/docs/screenshots/full_view.png)
-
+![Full Parsed View](https://github.com/cjnielsen77/ribbon-cdr-parser/blob/main/docs/screenshots/full_view.png?raw=true)
 
 ---
 
