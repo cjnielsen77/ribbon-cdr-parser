@@ -109,7 +109,11 @@ def parse_prot_data_side(prot_data: list, side_prefix: str, contact_idx: int) ->
 
     # Build sip_<code> key and friendly text
     sip_key = f"sip_{status_code}" if status_code else "sip_UNKNOWN"
-    sip_name = sip_cause_code_mapping.get(sip_key, "Unknown Code")
+    
+    if sip_key != "sip_BYE":
+        sip_name = sip_cause_code_mapping.get(sip_key, "Unknown Code")
+    else:
+        sip_name = "BYE"
 
     # Display just the numeric part + friendly text
     code_display = status_code if status_code else "UNKNOWN"
@@ -183,7 +187,7 @@ def parse_cdr_to_dict(raw_cdr: str) -> dict:
 
         # Disconnect reason
         dr_code = safe_get(fields, 11)
-        disconnect_reason = f"dr{dr_code}" if dr_code else "drUNKNOWN"
+        disconnect_reason = f"DR{dr_code}" if dr_code else "drUNKNOWN"
         disconnect_name = cdr_disconnect_reason.get(disconnect_reason, "Unknown Code")
         parsed_data["disconnect_reason"] = f"{disconnect_reason} ({disconnect_name})"
 
@@ -279,7 +283,7 @@ def parse_cdr_to_dict(raw_cdr: str) -> dict:
 
         # Disconnect reason
         dr_code = safe_get(fields, 14)
-        disconnect_reason = f"dr{dr_code}" if dr_code else "drUNKNOWN"
+        disconnect_reason = f"DR{dr_code}" if dr_code else "drUNKNOWN"
         disconnect_name = cdr_disconnect_reason.get(disconnect_reason, "Unknown Code")
         parsed_data["disconnect_reason"] = f"{disconnect_reason} ({disconnect_name})"
 
