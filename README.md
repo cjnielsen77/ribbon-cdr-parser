@@ -1,14 +1,12 @@
 # Ribbon SBC CDR Parser (GUI)
 
+[![tests](https://github.com/cjnielsen77/ribbon-cdr-parser/actions/workflows/tests.yml/badge.svg)](https://github.com/cjnielsen77/ribbon-cdr-parser/actions/workflows/tests.yml)
+
 A lightweight **Python / Tkinter GUI tool** for parsing **Ribbon SBC Core Call Detail Records (CDRs)** into a structured, human‑readable format. The tool supports **START**, **ATTEMPT**, and **STOP** CDR types and is designed for day‑to‑day operational troubleshooting, call‑flow validation, and analysis in enterprise voice environments.
 
 This project was intentionally built as a **local‑only utility** suitable for locked‑down Windows servers commonly used in telecom operations.
 
 ---
-
-![tests](https://github.com/cjnielsen77/ribbon-cdr-parser/actions/workflows/tests.yml/badge.svg)
-
-[![tests](https://github.com/cjnielsen77/ribbon-cdr-parser/actions/workflows/tests.yml/badge.svg)](https://github.com/cjnielsen77/ribbon-cdr-parser/actions/workflows/tests.yml)
 
 ## Supported Platforms
 
