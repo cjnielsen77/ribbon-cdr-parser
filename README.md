@@ -32,11 +32,11 @@ Developed and validated using **Ribbon SBC Core Release 12.01.06** documentation
 
 ## Screenshots
 
-![Main Input](/docs/screenshots/main_input.png?raw=true)
+![Main Input](docs/screenshots/main_input.png)
 
-![Condensed View](/docs/screenshots/condensed_view.png?raw=true)
+![Condensed View](docs/screenshots/condensed_view.png)
 
-![Full Parsed View](/docs/screenshots/full_view.png?raw=true)
+![Full Parsed View](docs/screenshots/full_view.png)
 
 ---
 
