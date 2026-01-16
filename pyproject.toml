@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ribbon-cdr-parser"
+version = "0.1.0"
+description = "Tkinter GUI tool to parse Ribbon SBC Core CDRs (START/ATTEMPT/STOP)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Calvin N." }
+]
+keywords = ["Ribbon", "SBC", "CDR", "VoIP", "SIP", "Tkinter"]
+
+# No external deps (tkinter is stdlib)
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "black"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -ra"
+
