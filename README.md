@@ -6,7 +6,7 @@ A lightweight **Python / Tkinter GUI tool** for parsing **Ribbon SBC Core Call D
 
 This project was intentionally built as a **local‑only utility** suitable for locked‑down Windows servers commonly used in telecom operations.
 
-Why this exists: Enterprise Ribbon SBC CDRs are dense and difficult to interpret during incidents; this tool provides a fast, visual way to trace a call’s path through the voice network—identifying SBCs, trunk groups, routing decisions, and failure points without manual field decoding.
+**Why this exists**: Enterprise Ribbon SBC CDRs are dense and difficult to interpret during incidents; this tool provides a fast, visual way to trace a call’s path through the voice network—identifying SBCs, trunk groups, routing decisions, and failure points without manual field decoding.
 
 ---
 
